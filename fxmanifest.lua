@@ -13,3 +13,7 @@ server_script 'server.lua'
 dependencies {
     'ox_lib', 
 }
+
+escrow_ignore {
+    'config.lua'
+}
